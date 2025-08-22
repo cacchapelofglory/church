@@ -125,7 +125,7 @@ body{
 
 /*Hero Section*/
 .hero {
-  background: url('CoG.jpg') no-repeat center center/cover;
+  background: url('images/CoG.jpg') no-repeat center center/cover;
   align-items: center;
   justify-content: center;
   color: white;
@@ -874,6 +874,9 @@ footer{
 /*Mobile Responsive*/
 @media (max-width: 768px) {
   /*Header*/
+  body{
+    font-family: serif;
+  }
   .sticky-nav {
     padding: 0 10px;
   }
@@ -938,6 +941,7 @@ footer{
   .hero .container h1{
     font-weight: 1000;
     font-size: 25px;
+    font-family: sans-serif;
   }
   
   .hero .container .tex{
@@ -947,6 +951,7 @@ footer{
 
   .hero .container .chu{
     font-size: 20px;
+    font-family: sans-serif;
   }
 
   /*Welcome Section*/
@@ -1125,5 +1130,4 @@ footer{
     padding: 10px;
   }
   
-
 }
