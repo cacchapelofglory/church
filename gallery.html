@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery - CAC Chapel of Glory District HQ</title>
+    <meta name="description" content="View photos from our services, events, and community outreach at CAC Chapel of Glory District Headquarters.">
+
+    <link rel="icon" type="image/png" href="images/CAC-Logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.goolgeapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!--Navigation -->
+    <header class="sticky-nav">
+        <div class="sticky-nav-container">
+            <div class="sticky-nav-logo">
+                <a href="index.html"><img src="images/cac-logo.png" alt="Logo"></a>
+            </div>
+            <nav class="sticky-nav-menu">
+                <ul class="ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="link-abt"><a>About Us</a>
+                        <ul class="abt-drdn">
+                            <li><a href="">History</a></li>
+                            <li><a href="mission.html">Vision & Mission</a></li>
+                            <li><a href="leader.html">Our Leaders</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="give.html">Donation</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="live.html">Join Live</a></li>
+                </ul>
+            </nav>
+            <button class="sticky-nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!--Gallery-->
+    <section class="gallery">
+        <h1>Gallery</h1>
+        <div class="gallery-img">
+          <img src="images/Church.jpg" alt="Image 1" class="zoom-img">
+          <img src="images/Youth (2).jpg" alt="Image 2" class="zoom-img">
+          <img src="images/Child.jpg" alt="Image 3" class="zoom-img">
+          <img src="images/Women pic.jpg" alt="Image 4" class="zoom-img">
+          <img src="images/Men P.jpg" alt="Image 5" class="zoom-img">
+          <img src="images/Youth Leaders.jpg" alt="Image 6" class="zoom-img">
+          <img src="images/YD.jpg" alt="Image 7" class="zoom-img">
+          <img src="images/Prayer.jpg" alt="Image 8" class="zoom-img">
+          <img src="images/YP.jpg" alt="Image 9" class="zoom-img">
+          <img src="images/sister.jpg" alt="Image 10" class="zoom-img">
+        </div>
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <span class="prev">&#10094;</span>
+            <span class="next">&#10095;</span>
+            <img class="modal-content" id="imgModal">
+        </div>
+    </section>
+
+    <!--Back to Top-->
+    <button id="backToTop" onclick="scrollToTop()"><i class='bx bx-chevron-up'></i></button>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-top">
+            <div class="logo">
+                <img src="images/cac-logo.png" alt="Logo">
+                <div class="logo-name" style="align-items: start; text-align: center; color: white;">
+                    <h2 style="text-transform: uppercase;">Christ Apostolic Church</h2>
+                    <h3>Chapel of Glory District Headquarter</h3>
+                    <p style="color: #e6d6d6;">...a place where the Glory of God dwells...</p>
+                </div>
+            </div>
+            <div class="sticty-layout-footer">
+                <div class="sticty-footer-content">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="event.html">Our Events</a></li>
+                        <li><a href="contact.html">Our Contact</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="give.html">Give</a></li>
+                        <li><a href="live.html">Go Live</a></li>
+                    </ul>
+                </div>
+                <div class="sticty-footer-content">
+                    <h3>Enquiries</h3>
+                        <ul>
+                            <li><a style="cursor: pointer;">Address: Alahu-Lateef, Faosin Rd, Amuloko, Ibadan, Oyo State, Nigeria.</a></li>
+                            <li><a href="tel:"></a></li>
+                            <li><a href="mailto:cacchapelofgloryhq@gmail.com">Email: cacchapelofgloryhq@gmail.com</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="footer-down"><p>Copyright &copy; 2025 CAC Chapel of Glory. All Rights Reserved.</p></div>
+        </div>
+    </footer>
+</body> 
+</html>
