@@ -142,7 +142,3 @@ const modal = document.getElementById("myModal");
       if (event.key === "Escape") modal.style.display = "none";
     }
   });
-
-window.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("year").textContent = new Date().getFullYear();
-});
