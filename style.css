@@ -1132,3 +1132,18 @@ footer{
   
 }
 
+.site-credit {
+  font-size: 1rem;
+  color: #6B6B6B;
+  text-align: center;
+}
+
+.site-credit a {
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-credit a:hover {
+ opacity: .8;
+}
