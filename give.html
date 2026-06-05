@@ -1,73 +1,442 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Donation - Support the Ministry of CAC Chapel of Glory District HQ</title>
 
+
+
     <link rel="icon" type="image/png" href="images/CAC-Logo.jpg">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://fonts.goolgeapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+
 
     <script src="script.js"></script>
 
+
+
     <style>
+
     .Upcoevent{
+
       padding-top: 50px;
+
     }
+
     /* Container for your content */
+
     #content-container {
+
       text-align: center;
+
       align-items: center;
+
       padding-top: 20px;
+
       padding: 50px;
+
     }
 
-    /* Spinner */
-    .spinner {
-      margin: auto;
-      width: 50px;
-      height: 50px;
-      border: 4px solid #ccc;
-      border-top: 4px solid #333;
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
+    
+
+    .donation-card{
+
+    max-width:900px;
+
+    margin:80px auto;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+    background:#fff;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+
+}
+
+
+
+.card-header{
+
+    background:#08275f;
+
+    color:white;
+
+    padding:40px;
+
+}
+
+
+
+.card-header small{
+
+    display:block;
+
+    color:#c6a76a;
+
+    letter-spacing:4px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.card-header h2{
+
+    font-size:50px;
+
+    font-weight:500;
+
+}
+
+
+
+.account-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+}
+
+
+
+.account-box{
+
+    padding:35px;
+
+    border-right:1px solid #ddd;
+
+    border-top:1px solid #ddd;
+
+}
+
+
+
+.account-box:last-child{
+
+    border-right:none;
+
+}
+
+
+
+.account-label{
+
+    color:#c6a76a;
+
+    letter-spacing:3px;
+
+    font-size:13px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.account-value{
+
+    font-size:22px;
+
+    color:#333;
+
+}
+
+
+
+.card-footer{
+
+    background:#f6f0e3;
+
+    padding:25px 35px;
+
+    color:#555;
+
+    border-top:1px solid #ddd;
+
+}
+
+
+
+.card-footer a{
+
+    color:#666;
+
+}
+
+    .card-header h2{
+
+        font-size:36px;
+
     }
 
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
+
+
+    .account-grid{
+
+        grid-template-columns:1fr;
+
     }
+
+
+
+    .account-box{
+
+        border-right:none;
+
+        border-bottom:1px solid #ddd;
+
+    }
+
 </style>
+
 </head>
+
 <body>
+
     <!--Navigation -->
+
     <header class="sticky-nav">
+
         <div class="sticky-nav-container">
+
             <div class="sticky-nav-logo">
+
                 <a href="index.html"><img src="images/cac-logo.png" alt="Logo"></a>
+
             </div>
+
             <nav class="sticky-nav-menu">
+
                 <ul class="ul">
+
                     <li><a href="index.html">Home</a></li>
-                    <li class="link-abt"><a>About Us</a>
-                        <ul class="abt-drdn">
-                            <li><a href="">History</a></li>
-                            <li><a href="mission.html">Vision & Mission</a></li>
-                            <li><a href="leader.html">Our Leaders</a></li>
-                        </ul>
-                    </li>
+
+                    <li><a href="about.html">About Us</a></li>
+
                     <li><a href="event.html">Events</a></li>
+
                     <li><a href="gallery.html">Gallery</a></li>
+
                     <li><a href="give.html" class="active">Donation</a></li>
+
                     <li><a href="contact.html">Contact Us</a></li>
+
                     <li><a href="live.html">Join Live</a></li>
+
                 </ul>
+
             </nav>
+
             <button class="sticky-nav-toggle">
+
                 <i class="fas fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <section class="give">
+
+        <h1 style="color: #0B2C5D; text-align: center; padding: 50px 0 5px 0;">Donation</h1>
+
+        <p style="color: #555; text-align: center;  font-size: 16px;">So let each one give as he purposes in his heart, not grudgingly or of necessity; for God loves a cheerful giver.<br><span style="font-style: italic;">2 Corinthians 9:7 [NKJV]</span></p>
+
+        
+
+        <div class="donation-card">
+
+
+
+    <div class="card-header">
+
+        <small>💳 BANK TRANSFER</small>
+
+        <h2>Give securely through your bank.</h2>
+
+    </div>
+
+
+
+    <div class="account-grid">
+
+
+
+        <div class="account-box">
+
+            <div class="account-label">BANK</div>
+
+            <div class="account-value">
+
+                Contact church office
+
+            </div>
+
+        </div>
+
+
+
+        <div class="account-box">
+
+            <div class="account-label">ACCOUNT NAME</div>
+
+            <div class="account-value">
+
+                CAC Chapel of Glory
+
+            </div>
+
+        </div>
+
+
+
+        <div class="account-box">
+
+            <div class="account-label">ACCOUNT NO.</div>
+
+            <div class="account-value">
+
+                Available on request
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <div class="card-footer">
+
+        ♡ For current account details or to give by other means,
+
+        please reach out via
+
+        <a href="mailto:cacchapelofgloryhq@gmail.com">
+
+            cacchapelofgloryhq@gmail.com
+
+        </a>
+
+    </div>
+
+
+
+</div>
+
+
+
+        <h3>Thank you for your support...... May God bless you. Amen!</h3>
+
+    </section>
+
+
+
+    <!--Back to Top-->
+
+    <button id="backToTop" onclick="scrollToTop()"><i class='bx bx-chevron-up'></i></button>
+
+
+
+    <!--Footer-->
+
+    <footer>
+
+        <div class="footer-top">
+
+            <div class="logo">
+
+                <img src="images/cac-logo.png" alt="Logo">
+
+                <div class="logo-name" style="align-items: start; text-align: center; color: white;">
+
+                    <h2 style="text-transform: uppercase;">Christ Apostolic Church</h2>
+
+                    <h3>Chapel of Glory District Headquarter</h3>
+
+                    <p style="color: #e6d6d6;">...a place where the Glory of God dwells...</p>
+
+                </div>
+
+            </div>
+
+            <div class="sticty-layout-footer">
+
+                <div class="sticty-footer-content">
+
+                    <h3>Explore</h3>
+
+                    <ul>
+
+                        <li><a href="event.html">Our Events</a></li>
+
+                        <li><a href="contact.html">Our Contact</a></li>
+
+                        <li><a href="gallery.html">Gallery</a></li>
+
+                        <li><a href="give.html">Give</a></li>
+
+                        <li><a href="live.html">Go Live</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="sticty-footer-content">
+
+                    <h3>Enquiries</h3>
+
+                        <ul>
+
+                            <li><a style="cursor: pointer;">Address: Alahu-Lateef, Faosin Rd, Amuloko, Ibadan, Oyo State, Nigeria.</a></li>
+
+                            <li><a href="tel:"></a></li>
+
+                            <li><a href="mailto:cacchapelofgloryhq@gmail.com">Email: cacchapelofgloryhq@gmail.com</a></li>
+
+                        </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div>
+
+            <div class="footer-down"><p>Copyright &copy; 2026 CAC Chapel of Glory. All Rights Reserved.</p><p class="site-credit">Designed & Developed by <a href="https://studio.kelech.me/">KELECH</a>
+
+
+
+            </p></div>
+
+        </div>
+
+    </footer>
+
+</body> 
+
+    </html>                <i class="fas fa-bars"></i>
             </button>
         </div>
     </header>
