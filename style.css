@@ -411,11 +411,12 @@ footer{
   text-align: center;
   height: 8vh;
   font-weight: 500;
-  background: rgba(0, 0, 0, 0.8);
+  background: black;
 }
 
 .footer-down p{
   color: #dddddf;
+  background: black;
   padding: 10px;
 }
 
