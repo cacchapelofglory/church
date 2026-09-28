@@ -1,0 +1,40 @@
+
+.her{
+   background: radial-gradient(ellipse at 30% 20%,#1d4390 0%,#0f2a5c 45%,#0a1d40 100%);color:#fff;text-align:center;padding:120px 0 110px;border-bottom:30px solid #d63a3a}
+.her h1{color:#fff;font-size:clamp(2rem,5.4vw,3.4rem);font-weight:800;letter-spacing:-.01em;line-height:1.2;margin:0;}
+.her h1 em{font-style:normal;color:#ff6b6b;display:block}
+.her.sub{font-weight:700;font-size:1.05rem;margin:20px auto 6px;color:#dbe3f5}
+.her p{max-width:56ch;margin:0 auto 28px;color:#c3cde6;font-size:.95rem}
+.her .btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.her .btn{display:inline-block;padding:12px 26px;border-radius:99px;font-weight:700;font-size:.85rem;text-decoration:none;border:2px solid #d63a3a;background:#d63a3a;color:#fff}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}.pill{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#eceef3;color:#0f2a5c;padding:7px 14px;border-radius:99px;margin-bottom:18px}
+#welcome{padding:60px 0}
+h2.big{font-size:clamp(1.6rem,3.6vw,2.2rem);max-width:24ch}.lead{color:#5a6275;max-width:56ch;font-size:.95rem;margin:14px 0 0}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.tile{position:relative;min-height:340px;border-radius:4px;overflow:hidden;color:#fff;text-decoration:none;display:flex;flex-direction:column;justify-content:space-between;padding:20px;background:linear-gradient(160deg,#0f2a5c 0%,#0a1d40 60%,#000 100%)}
+.tile:nth-child(2){background:linear-gradient(160deg,#1d4390 0%,#0f2a5c 55%,#0a1d40 100%)}
+.tile:nth-child(3){background:linear-gradient(160deg,#7b1f26 0%,#0a1d40 70%)}
+.tile::after{content:"";position:absolute;inset:auto -20% -30% auto;width:70%;height:60%;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.14),transparent 70%)}
+.tile small{display:block;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;opacity:.8}
+.tile h3{color:#fff;font-size:1.05rem;margin-top:2px}
+.tile .more{font-size:.65rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;z-index:1}
+@media(max-width:800px){.tiles{grid-template-columns:1fr}.tile{min-height:220px}}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:56px;padding-top:40px;border-top:1px solid #e4ddd0}
+.pillars b{display:block;color:#d63a3a;font-size:1.15rem;margin-bottom:6px}
+.pillars h3{font-size:1rem;margin-bottom:6px}
+.pillars p{margin:0;color:#5a6275;font-size:.85rem}
+@media(max-width:800px){.pillars{grid-template-columns:1fr}}
+.mgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px}
+.mcard{border-radius:12px;padding:28px 22px;min-height:170px;color:#fff;background:linear-gradient(160deg,#0f2a5c,#0a1d40)}
+.mcard:nth-child(even){background:linear-gradient(160deg,#1d4390,#0a1d40)}
+.mcard h3{color:#fff;font-size:1.02rem;margin-bottom:8px}
+.mcard p{margin:0;font-size:.85rem;color:#cfd8ee}
+@media(max-width:800px){.mgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.mgrid{grid-template-columns:1fr}}
+
+/* Watchword banner */
+.wbanner{margin-top:24px;border-radius:12px;padding:44px 28px;text-align:center;color:#fff;background:linear-gradient(120deg,#0a1d40 ,#0a1d40 )}
+.wbanner h3{color:#c9cfdd;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:18px}
+.wbanner p{font-style:italic;font-size:clamp(1.05rem,2.4vw,1.35rem);max-width:40ch;margin:0 auto}
+.wbanner small{display:block;font-style:normal;font-size:.8rem;opacity:.75;margin-top:6px}
+.wbanner hr{width:48px;border:0;border-top:3px solid #d63a3a ;margin:24px auto}
